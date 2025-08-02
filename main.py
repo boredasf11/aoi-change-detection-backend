@@ -14,7 +14,7 @@ def process_aoi():
     return jsonify({
         "status": "success",
         "message": "AOI received and processed.",
-        "image_url": sample_image_url
+        "image_url": "https://eoimages.gsfc.nasa.gov/images/imagerecords/144000/144321/world.topo.bathy.200412.3x21600x10800.jpg"
     })
 
 if __name__ == "__main__":
